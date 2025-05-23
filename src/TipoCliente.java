@@ -8,11 +8,11 @@ public class TipoCliente {
         int puntos = scanner.nextInt();
 
         if (puntos < 1000) {
-            System.out.println("El cliente es Bronce");
+            System.out.println("El Cliente es Bronce");
         } else if (puntos >= 1000 && puntos <= 3000) {
-            System.out.println("El cliente es Plata");
+            System.out.println("El Cliente es Plata");
         } else {
-            System.out.println("El cliente es Oro");
+            System.out.println("El Cliente es Oro");
         }
 
         scanner.close();
